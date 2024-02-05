@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+  <audio id="Background-music" src="/audio/register, login, admin, dashboard bg music.mp3" autoplay loop></audio>
+  <div id="first-page">
+    <div class="website-container">
+      <div class="logo-container">
+        <img id="logo-hackathon" src="/Logo Hackathon.png" alt="Hackathon Logo">
+      </div>
+      
+      <div class="register-container">
+        <p class="informasi-grup">Informasi Grup</p>
+          <div class="progress-bar"><img  src="/Progress bar 1.png" alt="Progress bar">
+          </div>
+        
+      <form id="register-form1" action="">
+          
+          <div class="nama-container">
+            <label for="nama-group">Nama Group</label>
+            <input type="text" name="" id="nama-group" > 
+            <p id="error-name" class="error-message"></p>
+          </div> 
+    
+          <div class="password-container">
+            <label for="password">Password</label>
+              <input type="password" name="" id="password" >
+              <img class="eye" id="eye" src="/close eye.png" alt="" onclick="Eye1()">
+              <p id="error-password" class="error-message"></p>
+          </div> 
+          
+          <div class="confirm-container">
+            <label for="confirm-password">Confirm Password</label>
+              <input type="password" name="" id="confirm-password" >
+              <img class="eye-confirm-pass" id="eye-confirm-pass" src="/close eye.png" alt="" onclick="Eye2()">
+              <p id="error-confirm-password" class="error-message"></p>
+          </div> 
+    
+          <p class="status-text">Status</p>
+            <div class="radio-btn-binus">
+            <form  action="" >
+              <input type="radio" id="Binusian"   name="fav_language" value="HTML" required>
+              <label id="Binusian" for="Binusian">Binusian</label><br>
+              <input type="radio" id="Non-Binusian" name="fav_language" value="CSS" required>
+              <label for="Non-Binusian">Non-Binusian</label>
+              <br>
+              </div>
+              <div class="error-message" id="error-status"></div>
+            </form>
+            
+          <div class="next-button">
+            <a id="next-btn1" href=""><img src="/Next.png" alt="Next Button"></a>
+          </div>
+    
+            <div class="redirect-login">
+              <p>Sudah memiliki akun?</p>
+              <a href="">Login disini</a>
+            </div>
+      </form>
+      </div>
+    </div>
+  </div>
+
+    <div id="second-page" class="hidden" >
+      <div class="website-container">
+        <div class="logo-container">
+          <img id="logo-hackathon" src="/Logo Hackathon.png" alt="Hackathon Logo">
+        </div>
+        
+        <div class="register-container2">
+          <p class="informasi-grup">Informasi Leader</p>
+            <div class="progress-bar"><img  src="/Progress bar 2.png" alt="Progress bar">
+            </div>
+            
+          <form id="register-form2" action="">
+            <div class="nama-container2">
+              <label for="nama-lengkap">Nama Lengkap</label>
+              <input type="text" name="" id="nama-lengkap" > 
+              <p id="error-name2" class="error-message"></p>
+            </div> 
+      
+            <div class="email-container2">
+              <label for="email">Email</label>
+              <input type="email" name="" id="email2" >
+              <!-- <input type="checkbox" id="showPassword"> Show Password -->
+              <p id="error-email2" class="error-message"></p>
+            </div> 
+            
+            <div class="wa-number-container2">
+              <label for="wa-number">Whatsapp Number</label>
+              <input type="Number" id="wa-number" >
+              <p id="error-wa-number" class="error-message"></p>
+            </div> 
+      
+            <div class="line-id-container2">
+              <label for="line-id-number">Line ID</label>
+              <input type="text" id="line-id-number" >
+              <p id="error-line-id" class="error-message"></p>
+            </div> 
+          
+          </form>
+              
+          <div class="navigation-btn2">
+            <div class="back-btn" id="back-btn2">
+              <a><img src="/Back.png" alt="Back Button"></a>
+            </div>
+            <div class="next-btn2" id="next-btn2">
+              <a><img src="/Next.png" alt="Next Button"></a>
+            </div>
+          </div>
+              
+      
+              <div class="redirect-login">
+                <p>Sudah memiliki akun?</p>
+                <a href="">Login disini</a>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="third-page" class="hidden">
+      <div class="website-container">
+        <div class="logo-container">
+          <img id="logo-hackathon" src="/Logo Hackathon.png" alt="Hackathon Logo">
+        </div>
+        
+        <div class="register-container3">
+          <p class="informasi-grup">Informasi Leader</p>
+            <div class="progress-bar" id="progressBar3"><img  src="/Progress bar 3.png" alt="Progress bar">
+            </div>
+          <form id="register-form3" action="">
+      
+            <div class="github-container">
+              <label for="github">GitHub/ Gitlabel ID</label>
+              <input type="text" name="" id="github" >
+              <p id="error-github" class="error-message"></p> 
+            </div> 
+      
+            <div class="tempat-lahir-container">
+              <label for="tempat-lahir">Tempat Lahir</label>
+              <input type="text" name="" id="tempat-lahir" >
+              <!-- <input type="checkbox" id="showPassword"> Show Password -->
+              <p id="error-tempat-lahir" class="error-message"></p>
+            </div> 
+            
+            <div class="tanggal-lahir-container">
+              <label for="tanggal-lahir">Tanggal Lahir</label>
+              <input type="date" id="tanggal-lahir" required >
+              <p id="error-tanggal-lahir" class="error-message"></p>
+            </div> 
+          
+          </form>
+      
+          <div class="upload-btn-container">
+            <label for="upload-btn">Upload CV</label>
+            <input type="file" id="upload-btn">
+      
+            <label for="upload-btn">Upload Flazz Card / ID</label>
+            <input type="file" id="upload-btn">
+          </div>
+          
+          
+              
+          <div class="navigation-btn">
+            <div class="back-button3">
+              <a href=""><img id="back-btn3" src="/Back.png" alt="Back Button"></a>
+            </div>
+            <div class="next-btn3">
+              <a href=""><img id="submit-btn" src="/submit-button.png" alt="Next Button"></a>
+            </div>
+          </div>
+              
+      
+              <div class="redirect-login">
+                <p>Sudah memiliki akun?</p>
+                <a href="">Login disini</a>
+              </div>
+              
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="Register.js"></script>
+</body>
+</html>

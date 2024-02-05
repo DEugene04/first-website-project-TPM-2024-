@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('/login dahboard admin/Image/login image/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.background{
+  height: fit-content;
+  width: 100vw;
+}
+.login-container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  margin-left: -300px;
+  position: relative;
+}
+.first-line{
+  display: flex;
+  align-items: center;
+}
+#logo-techno{
+  height: 59px;
+  width: auto;
+}
+#logo-hackathon{
+  height: 100px;
+  width: auto;
+}
+.second-line{
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: -30px;
+}
+.third-line{
+  color: white;
+  font-size: 45px;
+  margin-top: -32px;
+}
+#login-form{
+  display: flex;
+  flex-direction: column;
+}
+#login-form input{
+  width: 624px;
+  height: 45px;
+  border-radius: 50px;
+  padding: 24px 16px;
+  outline: none;
+  border: 1px solid black;
+  margin-top: 32px;
+}
+.loginBtn-container{
+  display: flex;
+  justify-content: center;
+}
+.forget-pass{
+  display: flex;
+  justify-content: end;
+}
+.login-button{
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 74px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin-bottom: 80px;
+}
+.error-message{
+  color: red;
+}
+.fourth-line{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  color: white;
+}
+#mascot{
+  position: absolute;
+  right: -10px;
+  top: 54px;
+  z-index: -6000;
+}

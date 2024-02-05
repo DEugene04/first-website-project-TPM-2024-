@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#first-page{
+  display: block;
+}
+#second-page{
+  display: none;
+}
+#third-page{
+  display: none;
+}
+.website-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-image: url('/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container img{
+  margin: 20px;
+}
+
+#logo-hackathon{
+  width: 331px;
+  width: 202px;
+}
+
+.register-container{
+  width: 634px;
+  height: 830px;
+  background-color: rgb(28, 28, 28);
+  padding: 32px;
+  border-radius: 30px;
+}
+
+.informasi-grup{
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.progress-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.nama-container, .password-container, .confirm-container{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.eye{
+  position: absolute;
+   left: 915px;
+   top: 470px;
+}
+.eye-confirm-pass{
+  position: absolute;
+  left: 915px;
+  top: 580px
+}
+.register-container label{
+  color: white;
+  margin-bottom: 10px;
+}
+.register-container input{
+  height: 32px;
+  background-color: transparent;
+  outline: white;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.status-text{
+  color: white;
+}
+.error-message{
+  color: red;
+}
+/* .password-with-eye{
+  display: inline-block;
+  /* position: relative;
+  border: 1px solid white ;
+  border-radius: 5px;
+  height: 32px;
+  margin-bottom: 48px;
+}
+.password-with-eye input{
+  outline: none;
+  border: 0px;
+}
+#password{
+  padding-top: 10px;
+}
+.eye{
+  position: relative;
+  height: 14px;
+  width: 27px;
+  left: 340px;
+} */
+.radio-btn-binus{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.radio-btn-binus input:hover {
+  cursor: pointer;
+}
+.radio-btn-binus input {
+  width: 24px;
+  height: 24px;
+  margin-top: 16px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  background-color: rgb(28, 28, 28);
+}
+.radio-btn-binus label{
+  margin-top: 15px;
+  margin-right: 16px;
+  font-size: 24px;
+}
+.next-button{
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+}
+.next-button button{
+  padding: 20px;
+}
+
+/* second page css */
+
+.redirect-login{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+.redirect-login p{
+  color: white;
+}
+.nama-container2, .email-container2, .wa-number-container2, .line-id-container2{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.register-container2{
+  width: 634px;
+  height: 726px;
+  background-color: rgb(28, 28, 28);
+  padding: 32px;
+  border-radius: 30px;
+}
+.register-container2 label{
+  color: white;
+  margin-bottom: 10px;
+}
+.register-container2 input{
+  height: 32px;
+  background-color: transparent;
+  outline: white;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.navigation-btn2{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* third page css */
+.register-container3{
+  width: 634px;
+  height: 726px;
+  background-color: rgb(28, 28, 28);
+  padding: 32px;
+  border-radius: 30px;
+}
+#progressBar3 img{
+  width: 338px;
+  height: 50px;
+}
+.informasi-grup{
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.github-container, .tempat-lahir-container, .tanggal-lahir-container{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.register-container3 label{
+  color: white;
+  margin-bottom: 10px;
+}
+.register-container3 input{
+  height: 32px;
+  background-color: transparent;
+  outline: white;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.upload-btn-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.upload-btn-container input{
+  display: none;
+}
+.upload-btn-container label{
+  margin-top: -16px;
+  margin-bottom: 32px;
+  display: inline-block;
+  background-image: linear-gradient(135deg, #07245f, #0D5FFE);
+  padding: 16px 30px;
+  border-radius: 11px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.upload-btn-container i{
+  font-size: 16px;
+  margin-right: 10px;
+}
+.upload-btn-container label:active{
+  transform: scale(0.9);
+}
+.navigation-btn{
+  display: flex;
+  justify-content: space-between;
+}

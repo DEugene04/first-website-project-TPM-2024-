@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <audio id="Background-music" src="/audio/register, login, admin, dashboard bg music.mp3" autoplay loop></audio>
+
+  <div class="background">
+    <div class="login-container">
+      <div class="first-line">
+        <img id="logo-techno" src="/login dahboard admin/Image/login image/logo techno.png" alt="Logo TechnoScape">
+        <img id="logo-hackathon" src="/login dahboard admin/Image/login image/logo hack.png" alt="Logo Hackathon"> 
+      </div>
+      <div class="second-line">
+        <h1>WELCOME!</h1>
+      </div>
+      <div class="third-line">
+        Let's log you back in...!
+      </div>
+
+      <div class="form-container">
+        <form id="login-form" action="">
+          <div>
+            <input type="text" id="team-name" placeholder="Team name" name="team-name">
+            <p class="error-message" id="error-teamName"></p>
+          </div>
+          <div>
+            <input type="password" id="password" placeholder="Password" name="password">
+            <p class="error-message" id="error-password"></p>
+          </div>
+          <div class="forget-pass">
+            <a href="forgetpass.html">Forgot Password?</a>
+          </div>
+          <div class="loginBtn-container">
+            <button type="submit" class="login-button" id="login-button">Login</button>
+          </div>
+        </form>
+      </div>
+      
+      <div class="fourth-line">
+        <p>Belum memiliki akun?</p>
+        <a href="/Register page/Register.html">Registrasi disini</a>
+      </div>
+
+      <img id="mascot" src="/login dahboard admin/Image/login image/Mascot .png" alt="">
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

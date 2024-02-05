@@ -1,0 +1,85 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    background-image: url('/login dahboard admin/Image/login image/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.background{
+  width: 100vw;
+  height: fit-content;
+}
+.forgetPass-container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.first-line{
+  width: 663.94px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.second-line{
+  color: white;
+  font-size: 60px;
+  margin-top: -40px;
+}
+.thirdLine-container{
+  width: 827px;
+}
+.third-line{
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 170px;
+  margin-bottom: 24px;
+}
+#forgetPass-form {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+}
+#forgetPass-form input{
+  width: 624px;
+  border-radius: 50px;
+  padding: 10px 16px;
+  outline: none;
+  border: 1px solid black;
+}
+.error-message{
+  color: red;
+}
+.sendBtn{
+  background-color: blue;
+  padding: 10px 16px;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+}
+.sendBtn:hover{
+  cursor: pointer;
+  background-color: rgb(31, 31, 255);
+}
+.fourth-line{
+  display: flex;
+  gap: 8px;
+  color: white;
+  margin-bottom: 250px
+  ;
+}
+#mascot{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}

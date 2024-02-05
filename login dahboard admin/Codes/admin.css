@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  background-image: url('/login dahboard admin/Image/login image/Background.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.admin-container{
+  position: relative;
+}
+.navBar{
+  margin-left: 32px;
+}
+.admin-text{
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+}
+.admin-text h1{
+  font-size: 128px;
+  margin-right: 64px;
+}
+.admin-text input{
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.admin-text img{
+  width: 30px;
+  height: 30px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  margin-bottom: -60px;
+  gap: 32px;
+}
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.cards-first-line, .cards-second-line, .cards-third-line{
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  justify-content: center;
+}
+.cards{
+  width: 340px;
+  height: 139px;
+  background-color: #282828;
+  border-radius: 24px;
+  color: white;
+  padding: 15px 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards h1{
+  margin-bottom: 8px;
+  font-size: 42px;
+}
+.cards a{
+  color: white;
+  font-size: 20px;
+}
+
+/* POP UP CSS */
+.popUp-container{
+  position: absolute;
+  top: 250px;
+  left: 350px;
+  display: none;
+}
+.popUp-content{
+  color: white;
+  background-color: #282828;
+  width: 614px;
+  height: 614px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.popUp-content h1{
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.popUp-content p{
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.redirect-text{
+  margin-top: 20px;
+}
+.redirect-text a{
+  color: white;
+  font-size: 24px;
+  margin-right: 32px;
+}
+.action-team{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  left: 450px;
+  top: 40px;
+  gap: 16px;
+}
+.action-team a{
+  font-size: 24px;
+  color: white;
+}
+#deleteTeam{
+  color: #FA3E3E;
+}
+
+.hide{
+  display: none;
+}
