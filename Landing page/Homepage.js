@@ -1,5 +1,5 @@
 let music = document.getElementById("Background-music")
-music.volume = 0.2;
+music.volume = 0.5;
 
 //Sticky navbar
 window.addEventListener("scroll", function(){
